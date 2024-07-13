@@ -15,3 +15,5 @@ sources:
               - not_null
       - name: product
       - name: category
+      - name: _order_
+      - name: orderdetail
