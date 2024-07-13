@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: stg_erp__produtos
+    description: Tabela de produtos da camada stg.
+    columns:
+      - name: eh_discontinuado
+        description: Flag que indica se o produto ainda é comercializado.
+        tests:
+          - not_null

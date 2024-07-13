@@ -13,3 +13,7 @@ sources:
             tests:
               - unique
               - not_null
+      - name: product
+      - name: category
+      - name: _order_
+      - name: orderdetail
